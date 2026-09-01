@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samantha DeWeese</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-name">Samantha DeWeese</a>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Work</a></li>
+      <li><a href="#writing">Writing</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Samantha DeWeese</h1>
+      <p class="hero-tagline">Marketing, analytics, and storytelling.</p>
+      <p class="hero-sub">I build marketing programs, brand strategies, and creative campaigns, while dabbling in poetry and fiction on the side. I am currently a Marketing Coordinator and Associate Editor at Platypus Media in New York.</p>
+      <div class="hero-links">
+        <a href="#projects" class="btn">See my work</a>
+        <a href="#contact" class="btn btn-outline">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section section-alt" id="about">
+    <h2 class="section-title"><span>About</span></h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>I'm a marketing student at Fordham University's Gabelli School of Business with a minor in creative writing, graduating May 2027. I like working at the intersection of data and creative work, whether that's analyzing SEO, sales, or customer data to optimize marketing strategies or writing a poem on a Saturday afternoon.</p>
+        <p>At Platypus Media, I've developed SEO and media monitoring tools using Python, led the brand launch for a new publishing imprint, and created social and advertising content across platforms. I've also interned at Guilford Press and The Center for Fiction.</p>
+        <p>Outside of work, I write poetry and fiction (I studied at NYU Paris in summer 2024), manage the budget for Fordham's literary magazine, and build side projects like Squeakyturtle, a budget tracking app I made with Claude Code.</p>
+
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h4>AI &amp; Development</h4>
+            <p>Claude Code, Gemini, Python, Runway</p>
+          </div>
+          <div class="skill-group">
+            <h4>Digital &amp; Web</h4>
+            <p>SEO &amp; analytics, Excel, Stripe, Framer, Wix, Google Workspace</p>
+          </div>
+          <div class="skill-group">
+            <h4>Design &amp; Production</h4>
+            <p>InDesign, Photoshop, Premiere Pro, Audition, Canva</p>
+          </div>
+          <div class="skill-group">
+            <h4>Marketing &amp; Strategy</h4>
+            <p>Social media, market research, audience segmentation, brand positioning, Amazon Advertising</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <h2 class="section-title"><span>Work</span></h2>
+    <p class="section-intro">Selected projects in marketing strategy, analytics, web development, and content creation.</p>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="carousel">
+          <!-- Drop your White Finch Press screenshots into images/ and update these src paths -->
+          <img src="images/wfp-homepage.png" alt="White Finch Press homepage" class="active">
+          <img src="images/wfp-about.png" alt="White Finch Press about page">
+          <img src="images/wfp-faq.png" alt="White Finch Press FAQ section">
+          <img src="images/wfp-affirm.png" alt="White Finch Press Affirm financing integration">
+          <button class="carousel-btn prev" aria-label="Previous">&#8249;</button>
+          <button class="carousel-btn next" aria-label="Next">&#8250;</button>
+          <div class="carousel-dots"></div>
+        </div>
+        <div class="project-info">
+          <span class="project-tag">Brand &amp; Web</span>
+          <h3>White Finch Press, Platypus Media</h3>
+          <p>Led site design, copywriting, and Stripe payment integration for White Finch Press, a new hybrid publishing imprint at Platypus Media releasing September 2026. Set brand positioning based on competitive market research.</p>
+          <ul class="project-details">
+            <li>Site design and development using Framer</li>
+            <li>Brand positioning and competitive analysis</li>
+            <li>Stripe payment integration</li>
+            <li>Marketing copy and launch strategy</li>
+          </ul>
+          <div class="project-tools">
+            <span>Framer</span><span>Stripe</span><span>Copywriting</span><span>Brand Strategy</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="carousel">
+          <img src="images/st%20main%20page.png?v=2" alt="Squeakyturtle home screen with budget categories and savings" class="active">
+          <img src="images/st%20spending%20trends.png?v=2" alt="Squeakyturtle spending trends and donut chart">
+          <img src="images/st%20card%20unopened.png?v=2" alt="Squeakyturtle card pack ready to open">
+          <img src="images/st%20card%20opened.png?v=2" alt="Squeakyturtle card reveal animation">
+          <img src="images/st%20card%20info.png?v=2" alt="Squeakyturtle card collection grid">
+          <button class="carousel-btn prev" aria-label="Previous">&#8249;</button>
+          <button class="carousel-btn next" aria-label="Next">&#8250;</button>
+          <div class="carousel-dots"></div>
+        </div>
+        <div class="project-info">
+          <span class="project-tag">Web Development</span>
+          <h3>Squeakyturtle, Budget Tracker PWA</h3>
+          <p>Built a personal budget tracking web app from scratch using Claude Code. Integrates with bank and credit card accounts through Plaid.</p>
+          <ul class="project-details">
+            <li>Plaid integration for account data (Amex, bank accounts, etc.)</li>
+            <li>Gamified budgeting with a card reward system — staying under spending goals unlocks collectible cards</li>
+            <li>Built with Claude Code for AI-assisted development</li>
+          </ul>
+          <div class="project-tools">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Plaid</span><span>Claude Code</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="carousel">
+          <img src="images/salt%20and%20stone%20cover.png?v=2" alt="Salt + Stone spec ad" class="active">
+          <button class="carousel-play" aria-label="Play video" data-video="https://drive.google.com/file/d/12A_1Y6QLAlxCGgGxYYeWinNfCSeErNK9/preview"></button>
+          <button class="carousel-btn prev" aria-label="Previous">&#8249;</button>
+          <button class="carousel-btn next" aria-label="Next">&#8250;</button>
+          <div class="carousel-dots"></div>
+        </div>
+        <div class="project-info">
+          <span class="project-tag">AI &amp; Advertising</span>
+          <h3>Salt + Stone Spec Ad</h3>
+          <p>Spec brand advertisement created for a marketing visuals course. A fast-paced sequence of athletes in motion with products appearing subtly at the end. Led concept development through AI prompting and edited in Adobe Premiere Pro.</p>
+          <ul class="project-details">
+            <li>Text-to-image and image-to-video AI generation</li>
+            <li>Advanced prompt engineering for cinematic control</li>
+            <li>Edited and scored in Premiere Pro</li>
+          </ul>
+          <div class="project-tools">
+            <span>Premiere Pro</span><span>Gemini</span><span>Runway</span><span>AI Prompting</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="carousel">
+          <img src="images/zoya%201.png?v=2" alt="A Family for Zoya Teacher's Guide cover" class="active">
+          <img src="images/zoya2.png?v=2" alt="Teacher's Guide zoo research activity page">
+          <img src="images/zoya3.png?v=2" alt="Teacher's Guide discussion and background page">
+          <img src="images/content%20design.jpg" alt="World Breastfeeding Week social media graphic">
+          <button class="carousel-btn prev" aria-label="Previous">&#8249;</button>
+          <button class="carousel-btn next" aria-label="Next">&#8250;</button>
+          <div class="carousel-dots"></div>
+        </div>
+        <div class="project-info">
+          <span class="project-tag">Content &amp; Design</span>
+          <h3>Content and Design, Platypus Media</h3>
+          <p>Create social content across Instagram, TikTok, and LinkedIn to drive organic engagement. Design marketing materials including an NGSS-aligned teacher's guide with original classroom activities for STEM curriculum integration.</p>
+          <ul class="project-details">
+            <li>Video reels, graphics, and copy for social platforms</li>
+            <li>Teacher's guide design with original STEM activities</li>
+            <li>Cross-platform content strategy</li>
+          </ul>
+          <div class="project-tools">
+            <span>Canva</span><span>Photoshop</span><span>InDesign</span><span>Social Strategy</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== CREATIVE WRITING ===== -->
+  <section class="section section-alt" id="writing">
+    <h2 class="section-title"><span>Creative Writing</span></h2>
+    <p class="section-intro">Fiction, poetry, and essays. I studied fiction at NYU Paris and serve as treasurer of Fordham's Ampersand Literary Magazine.</p>
+
+    <div class="writing-grid">
+      <article class="writing-card">
+        <h3>Fiction</h3>
+        <p class="writing-desc">Short stories, comics, and other fiction.</p>
+        <button class="writing-link" data-modal="modal-fiction">Read &rarr;</button>
+      </article>
+
+      <article class="writing-card">
+        <h3>Poetry</h3>
+        <p class="writing-desc">Selected poems.</p>
+        <button class="writing-link" data-modal="modal-poetry">Read &rarr;</button>
+      </article>
+
+      <article class="writing-card">
+        <h3>Essays and Cultural Writing</h3>
+        <p class="writing-desc">Essays on modern culture, media, and the publishing industry.</p>
+        <button class="writing-link" data-modal="modal-essays">Read &rarr;</button>
+      </article>
+    </div>
+
+    <!-- Writing modals -->
+    <div class="writing-modal" id="modal-fiction">
+      <div class="writing-modal-content">
+        <button class="writing-modal-close" aria-label="Close">&times;</button>
+        <h3>Fiction</h3>
+        <ul class="writing-list">
+          <li><a href="papers/And%20tomorrow%2C%20it'll%20be%20yellow..pdf" target="_blank">And Tomorrow, it'll Be Yellow</a><span class="writing-type">Short Story</span></li>
+          <li><a href="papers/Samantha%20DeWeese-%20Comic%20Project.pdf" target="_blank">Grogu's Beginning</a><span class="writing-type">Comic</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="writing-modal" id="modal-poetry">
+      <div class="writing-modal-content">
+        <button class="writing-modal-close" aria-label="Close">&times;</button>
+        <h3>Poetry</h3>
+        <ul class="writing-list">
+          <li><a href="papers/Sylvia%20Plath%20Poem.pdf" target="_blank">I wore my best dress for this Sylvia Plath Letter</a></li>
+          <li><a href="papers/it%20all%20Falls%20but%20this%20Haiku.pdf" target="_blank">it all Falls but this Haiku</a></li>
+          <li><a href="papers/It's%20Romantic%2C%20Painting%20Our%20Sea%20With%20Pain.pdf" target="_blank">It's Romantic, Painting Our Sea With Pain</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="writing-modal" id="modal-essays">
+      <div class="writing-modal-content">
+        <button class="writing-modal-close" aria-label="Close">&times;</button>
+        <h3>Essays and Cultural Writing</h3>
+        <ul class="writing-list">
+          <li><a href="papers/Final%20Essay%20-%20Honors%20Thesis%20I.pdf" target="_blank">Publishing Is Late to Brandification: How Do We Catch Up?</a></li>
+          <li><a href="papers/%E2%80%9CThe%20One%20Where%20We%20Lost%20Our%20Best%20Friend%E2%80%9D%20%E2%80%93%20Fashion%20for%20Philanthropy.pdf" target="_blank">"The One Where We Lost Our Best Friend" – Fashion for Philanthropy</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <h2 class="section-title"><span>Contact</span></h2>
+    <div class="contact-content">
+      <p>I'm open to opportunities in marketing, analytics, and content strategy in New York and beyond.</p>
+      <div class="contact-links">
+        <a href="mailto:deweese.sed@gmail.com" class="contact-link">deweese.sed@gmail.com</a>
+        <a href="https://linkedin.com/in/samanthadeweese" class="contact-link" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 Samantha DeWeese</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <button class="lightbox-btn prev" aria-label="Previous">&#8249;</button>
+    <button class="lightbox-btn next" aria-label="Next">&#8250;</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
